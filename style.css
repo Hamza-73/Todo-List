@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #6c78e4;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+}
+
+.input-todo{
+    min-height: 100px;
+    min-width: 25rem;
+    padding: 30px;
+    text-align: center;
+}
+
+.heading{
+    text-align: start;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.4rem;
+}
+
+.input-todo .input{
+    display: flex;
+}
+
+.input-todo .btn{
+    width: 50px;
+    font-size: 25px;
+    background-color: rgb(194, 38, 194);
+    border: 1px solid rgb(194, 38, 194);
+    color: #fff;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+.input-todo input{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid rgb(126, 121, 121);
+    text-indent: 10px;
+    outline: none;
+}
+
+#todos{
+    margin-top: 10px;
+}
+
+.item{
+    display: flex;
+    margin-top: 6px;
+}
+
+.item p{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    text-align: start;
+    text-indent: 10px;
+    color: rgb(75, 74, 74);
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(126, 121, 121);
+    font-size: 20px;
+}
+
+.item .delBtn{
+    width: 50px;
+    margin-left: 5px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: rgb(167, 15, 15);
+    border: 1px solid rgb(167, 15, 15);
+}
